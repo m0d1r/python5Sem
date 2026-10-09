@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <layout class="QVBoxLayout">
+            <item>
+                <widget class="QLineEdit" name="nameEdit" />
+            </item>
+            <item>
+                <widget class="QLineEdit" name="phoneEdit" />
+            </item>
+            <item>
+                <widget class="QPushButton" name="btn">
+                    <property name="text">
+                        <string>Добавить</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QListWidget" name="listWidget" />
+            </item>
+        </layout>
+    </widget>
+</ui>

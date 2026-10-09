@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QVBoxLayout">
+                <item>
+                    <widget class="QDoubleSpinBox" name="spinBox" />
+                </item>
+                <item>
+                    <widget class="QTextEdit" name="text1" />
+                </item>
+                <item>
+                    <widget class="QTextEdit" name="text2" />
+                </item>
+                <item>
+                    <widget class="QPushButton" name="btn">
+                        <property name="text">
+                            <string>Проверить</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QStatusBar" name="statusbar" />
+    </widget>
+</ui>

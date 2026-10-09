@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <layout class="QVBoxLayout">
+            <item>
+                <widget class="QLabel" name="lbl_stones">
+                    <property name="text">
+                        <string>Камней: 0</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QSpinBox" name="spinBox" />
+            </item>
+            <item>
+                <widget class="QPushButton" name="btn_start">
+                    <property name="text">
+                        <string>Начать игру</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QSpinBox" name="takeSpinBox" />
+            </item>
+            <item>
+                <widget class="QPushButton" name="btn_take">
+                    <property name="text">
+                        <string>Взять</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLabel" name="lbl_status">
+                    <property name="text">
+                        <string />
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+</ui>

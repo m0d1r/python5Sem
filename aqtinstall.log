@@ -1,0 +1,7 @@
+2026-10-12 05:39:41,435 - aqt.main - INFO - installer 12124 aqtinstall(aqt) v3.3.0 on Python 3.12.6 [CPython MSC v.1940 64 bit (AMD64)]
+2026-10-12 05:39:41,436 - aqt.helper - DEBUG - helper 12124 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt5_5152/Updates.xml.sha256
+2026-10-12 05:40:05,678 - aqt.helper - DEBUG - helper 12124 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt5_5152/Updates.xml.sha256
+2026-10-12 05:40:29,723 - aqt.helper - DEBUG - helper 12124 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt5_5152/Updates.xml.sha256
+2026-10-12 05:40:53,793 - aqt.helper - DEBUG - helper 12124 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt5_5152/Updates.xml.sha256
+2026-10-12 05:41:17,834 - aqt.helper - DEBUG - helper 12124 Attempt to download checksum at https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt5_5152/Updates.xml.sha256
+2026-10-12 05:41:41,879 - aqt.archives - WARNING - archives 12124 Failed to download checksum for the file 'online/qtsdkrepository/windows_x86/desktop/qt5_5152/Updates.xml'. This may happen on unofficial mirrors.
