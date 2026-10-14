@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>650</width>
+                <height>700</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>L-система</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QWidget" name="canvas">
+                    <property name="minimumSize">
+                        <size>
+                            <width>600</width>
+                            <height>600</height>
+                        </size>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLabel" name="lblInfo">
+                    <property name="text">
+                        <string>Файл не загружен</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnOpen">
+                    <property name="text">
+                        <string>Открыть</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QSlider" name="sliderStep">
+                    <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="minimum">
+                        <number>0</number>
+                    </property>
+                    <property name="maximum">
+                        <number>0</number>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+</ui>

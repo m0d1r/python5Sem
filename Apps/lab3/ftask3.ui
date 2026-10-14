@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>Form</class>
+  <widget class="QWidget" name="Form">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>500</width>
+        <height>500</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Картинка</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+        <widget class="QLabel" name="lblImage">
+          <property name="text">
+            <string>Картинка не загружена</string>
+          </property>
+          <property name="alignment">
+            <set>Qt::AlignCenter</set>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+            <widget class="QPushButton" name="btnOpen">
+              <property name="text">
+                <string>Открыть</string>
+              </property>
+            </widget>
+          </item>
+          <item>
+            <widget class="QPushButton" name="btnLeft">
+              <property name="text">
+                <string>Влево</string>
+              </property>
+            </widget>
+          </item>
+          <item>
+            <widget class="QPushButton" name="btnRight">
+              <property name="text">
+                <string>Вправо</string>
+              </property>
+            </widget>
+          </item>
+        </layout>
+      </item>
+      <item>
+        <widget class="QComboBox" name="comboChannel">
+          <item>
+            <property name="text">
+              <string>Все каналы</string>
+            </property>
+          </item>
+          <item>
+            <property name="text">
+              <string>R</string>
+            </property>
+          </item>
+          <item>
+            <property name="text">
+              <string>G</string>
+            </property>
+          </item>
+          <item>
+            <property name="text">
+              <string>B</string>
+            </property>
+          </item>
+        </widget>
+      </item>
+    </layout>
+  </widget>
+</ui>
