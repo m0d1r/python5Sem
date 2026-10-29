@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0">
+  <class>Form</class>
+  <widget class="QWidget" name="Form">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1330</width>
+        <height>590</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Фильмы</string>
+    </property>
+    <widget class="QWidget" name="listArea">
+      <property name="geometry">
+        <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>860</width>
+          <height>590</height>
+        </rect>
+      </property>
+      <widget class="QTableWidget" name="tableFilms">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>840</width>
+            <height>510</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="addButton">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>530</y>
+            <width>150</width>
+            <height>36</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Добавить</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="editButton">
+        <property name="geometry">
+          <rect>
+            <x>170</x>
+            <y>530</y>
+            <width>150</width>
+            <height>36</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Изменить</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="deleteButton">
+        <property name="geometry">
+          <rect>
+            <x>330</x>
+            <y>530</y>
+            <width>150</width>
+            <height>36</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Удалить</string>
+        </property>
+      </widget>
+    </widget>
+    <widget class="QWidget" name="formArea">
+      <property name="geometry">
+        <rect>
+          <x>870</x>
+          <y>0</y>
+          <width>450</width>
+          <height>310</height>
+        </rect>
+      </property>
+      <widget class="QLabel" name="idLabel">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>140</width>
+            <height>27</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>ID</string>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="idEdit">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>10</y>
+            <width>280</width>
+            <height>27</height>
+          </rect>
+        </property>
+        <property name="readOnly">
+          <bool>true</bool>
+        </property>
+      </widget>
+      <widget class="QLabel" name="titleLabel">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>48</y>
+            <width>140</width>
+            <height>27</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Название</string>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="titleEdit">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>48</y>
+            <width>280</width>
+            <height>27</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLabel" name="yearLabel">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>86</y>
+            <width>140</width>
+            <height>27</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Год</string>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="yearEdit">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>86</y>
+            <width>280</width>
+            <height>27</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLabel" name="genreLabel">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>124</y>
+            <width>140</width>
+            <height>27</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Жанр</string>
+        </property>
+      </widget>
+      <widget class="QComboBox" name="genreBox">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>124</y>
+            <width>280</width>
+            <height>27</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QLabel" name="durationLabel">
+        <property name="geometry">
+          <rect>
+            <x>10</x>
+            <y>162</y>
+            <width>140</width>
+            <height>27</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Длительность</string>
+        </property>
+      </widget>
+      <widget class="QLineEdit" name="durationEdit">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>162</y>
+            <width>280</width>
+            <height>27</height>
+          </rect>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="saveButton">
+        <property name="geometry">
+          <rect>
+            <x>150</x>
+            <y>214</y>
+            <width>130</width>
+            <height>34</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Сохранить</string>
+        </property>
+      </widget>
+      <widget class="QPushButton" name="cancelButton">
+        <property name="geometry">
+          <rect>
+            <x>300</x>
+            <y>214</y>
+            <width>130</width>
+            <height>34</height>
+          </rect>
+        </property>
+        <property name="text">
+          <string>Отмена</string>
+        </property>
+      </widget>
+    </widget>
+  </widget>
+  <resources />
+  <connections />
+</ui>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>800</width><height>500</height></rect>
+  </property>
+  <property name="windowTitle"><string>Результаты олимпиады</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item><widget class="QLabel" name="schoolLabel"><property name="text"><string>Школа</string></property></widget></item>
+      <item><widget class="QComboBox" name="schoolBox"/></item>
+      <item><widget class="QLabel" name="classLabel"><property name="text"><string>Класс</string></property></widget></item>
+      <item><widget class="QComboBox" name="classBox"/></item>
+     </layout>
+    </item>
+    <item><widget class="QTableWidget" name="tableWidget">
+     <property name="editTriggers"><set>QAbstractItemView::NoEditTriggers</set></property>
+     <property name="columnCount"><number>3</number></property>
+     <column><property name="text"><string>Логин</string></property></column>
+     <column><property name="text"><string>ФИО</string></property></column>
+     <column><property name="text"><string>Суммарный балл</string></property></column>
+    </widget></item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
